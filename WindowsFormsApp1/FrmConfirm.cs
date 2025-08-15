@@ -25,6 +25,12 @@ namespace WindowsFormsApp1
      
         // Delegate variables
         private StudentInfoClass.DelegateText DelProgram, DelLastName, DelFirstName, DelMiddleName, DelAddress;
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private StudentInfoClass.DelegateNumber DelNumAge, DelNumContactNo, DelStudNo;
 
 
