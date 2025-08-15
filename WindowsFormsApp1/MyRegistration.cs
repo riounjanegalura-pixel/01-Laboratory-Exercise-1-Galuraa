@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static WindowsFormsApp1.StudentInfo;
+using static WindowsFormsApp1.MyRegistration;
 
 namespace WindowsFormsApp1
 {
@@ -34,8 +34,18 @@ namespace WindowsFormsApp1
             StudentInfoClass.ContactNo = long.Parse(txtContactNo.Text);
             StudentInfoClass.Address = rtxtAddress.Text;
 
-            // Create and show the next form
-         
+            FrmConfirm confirmForm = new FrmConfirm();
+            confirmForm.ShowDialog();
+
+        }
+
+        private void MyRegistration_Load(object sender, EventArgs e)
+        {
+
+            cbProgram.Items.Add("BS in Computer Science");
+            cbProgram.Items.Add("BS in Information Technology");
+            cbProgram.Items.Add("BS in Business Administration");
+            cbProgram.Items.Add("BS in Accountancy");
         }
     }
 }

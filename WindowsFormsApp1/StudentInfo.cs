@@ -8,70 +8,70 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WindowsFormsApp1
 {
-    internal class StudentInfo
+    internal class StudentInfoClass
     {
-        public class StudentInfoClass
-        {
-            // Delegates
-            public delegate void DelegateNumber(long number);
-            public delegate void DelegateText(string txt);
 
-            // Static variables
-            public static string FirstName = "";
-            public static string LastName = "";
-            public static string MiddleName = "";
-            public static string Address = "";
-            public static string Program = "";
-            public static long Age = 0;
-            public static long ContactNo = 0;
-            public static long StudentNo = 0;
-        }
 
-        public static string GetFirstName(string FirstName)
+        // Delegates
+        public delegate string DelegateText();
+        public delegate long DelegateNumber();
+
+        // Static variables
+        public static string FirstName = "";
+        public static string LastName = "";
+        public static string MiddleName = "";
+        public static string Address = "";
+        public static string Program = "";
+        public static long Age = 0;
+        public static long ContactNo = 0;
+        public static long StudentNo = 0;  
+
+
+        public static string GetFirstName()
         {
-            StudentInfoClass.FirstName = FirstName;
+           
             return FirstName;
         }
 
-        public static string GetLastName(string LastName)
+        public static string GetLastName()
         {
-            StudentInfoClass.LastName = LastName;
+          
             return LastName;
         }
 
-        public static string GetMiddleName(string MiddleName)
+        public static string GetMiddleName()
         {
-            StudentInfoClass.MiddleName = MiddleName;
+           
             return MiddleName;
         }
 
-        public static string GetAddress(string Address)
+        public static string GetAddress()
         {
-            StudentInfoClass.Address = Address;
+          
             return Address;
         }
 
-        public static string GetProgram(string Program)
+        public static string GetProgram()
         {
-            StudentInfoClass.Program = Program;
-            return Program;
+           
+           return Program;
         }
 
-        public static long GetAge(long Age)
+        public static long GetAge()
         {
-            StudentInfoClass.Age = Age;
+            
             return Age;
         }
 
-        public static long GetContactNo(long ContactNo)
+        public static long GetContactNo()
         {
-            StudentInfoClass.ContactNo = ContactNo;
+           
             return ContactNo;
         }
 
-        public static long GetStudentNo(long StudentNo)
+        public static long GetStudentNo()
         {
-            StudentInfoClass.StudentNo = StudentNo;
+            ;
             return StudentNo;
 
         }
