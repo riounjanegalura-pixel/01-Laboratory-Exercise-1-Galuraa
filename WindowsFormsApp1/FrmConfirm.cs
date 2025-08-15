@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
         private StudentInfoClass.DelegateText DelProgram, DelLastName, DelFirstName, DelMiddleName, DelAddress;
         private StudentInfoClass.DelegateNumber DelNumAge, DelNumContactNo, DelStudNo;
 
-
+        
         private void FrmConfirm_Load(object sender, EventArgs e)
         {
 
