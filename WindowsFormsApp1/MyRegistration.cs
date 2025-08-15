@@ -35,9 +35,7 @@ namespace WindowsFormsApp1
             StudentInfoClass.Address = rtxtAddress.Text;
 
             // Create and show the next form
-            FrmConfirm frmConfirm = new FrmConfirm();
-            frmConfirm.Show();
-            this.Hide();
+         
         }
     }
 }
