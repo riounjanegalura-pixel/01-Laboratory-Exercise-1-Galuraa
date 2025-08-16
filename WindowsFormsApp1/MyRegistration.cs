@@ -37,6 +37,21 @@ namespace WindowsFormsApp1
             FrmConfirm confirmForm = new FrmConfirm();
             confirmForm.ShowDialog();
 
+            if (confirmForm.ShowDialog() == DialogResult.OK)
+            {
+                // If the user confirms, all controls will be reset.
+                txtStudentNum.Text = string.Empty;
+                txtLastName.Text = string.Empty;
+                txtFirstName.Text = string.Empty;
+                txtMiddleName.Text = string.Empty;
+                txtAge.Text = string.Empty;
+                txtContactNo.Text = string.Empty;
+                rtxtAddress.Text = string.Empty;
+
+                cbProgram.SelectedIndex = -1;
+                cbProgram.Text = string.Empty;
+            }
+
         }
 
         private void MyRegistration_Load(object sender, EventArgs e)
