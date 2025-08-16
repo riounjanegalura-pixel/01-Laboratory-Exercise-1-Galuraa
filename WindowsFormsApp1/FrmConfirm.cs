@@ -30,7 +30,7 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.OK;
-            this.Close();
+            this.Close();   
         }
 
         private void FrmConfirm_Load(object sender, EventArgs e)
