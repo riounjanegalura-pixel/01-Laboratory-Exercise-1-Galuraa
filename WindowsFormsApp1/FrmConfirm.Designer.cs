@@ -53,9 +53,8 @@
             this.lblStudentNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudentNo.Location = new System.Drawing.Point(269, 43);
             this.lblStudentNo.Name = "lblStudentNo";
-            this.lblStudentNo.Size = new System.Drawing.Size(71, 15);
+            this.lblStudentNo.Size = new System.Drawing.Size(0, 15);
             this.lblStudentNo.TabIndex = 0;
-            this.lblStudentNo.Text = "Student No;";
             // 
             // lblProgram
             // 
@@ -63,9 +62,8 @@
             this.lblProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProgram.Location = new System.Drawing.Point(269, 80);
             this.lblProgram.Name = "lblProgram";
-            this.lblProgram.Size = new System.Drawing.Size(58, 15);
+            this.lblProgram.Size = new System.Drawing.Size(0, 15);
             this.lblProgram.TabIndex = 1;
-            this.lblProgram.Text = "Program:";
             // 
             // lblLastName
             // 
@@ -73,9 +71,8 @@
             this.lblLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLastName.Location = new System.Drawing.Point(272, 117);
             this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(67, 15);
+            this.lblLastName.Size = new System.Drawing.Size(0, 15);
             this.lblLastName.TabIndex = 2;
-            this.lblLastName.Text = "Last Name";
             // 
             // lblFirstName
             // 
@@ -83,9 +80,8 @@
             this.lblFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFirstName.Location = new System.Drawing.Point(272, 150);
             this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(67, 15);
+            this.lblFirstName.Size = new System.Drawing.Size(0, 15);
             this.lblFirstName.TabIndex = 3;
-            this.lblFirstName.Text = "First Name";
             // 
             // lblMiddleName
             // 
@@ -93,9 +89,8 @@
             this.lblMiddleName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMiddleName.Location = new System.Drawing.Point(272, 182);
             this.lblMiddleName.Name = "lblMiddleName";
-            this.lblMiddleName.Size = new System.Drawing.Size(82, 15);
+            this.lblMiddleName.Size = new System.Drawing.Size(0, 15);
             this.lblMiddleName.TabIndex = 4;
-            this.lblMiddleName.Text = "Middle Name";
             // 
             // lblAge
             // 
@@ -103,9 +98,8 @@
             this.lblAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAge.Location = new System.Drawing.Point(272, 215);
             this.lblAge.Name = "lblAge";
-            this.lblAge.Size = new System.Drawing.Size(31, 15);
+            this.lblAge.Size = new System.Drawing.Size(0, 15);
             this.lblAge.TabIndex = 5;
-            this.lblAge.Text = "Age:";
             // 
             // lblContactNo
             // 
@@ -113,9 +107,8 @@
             this.lblContactNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContactNo.Location = new System.Drawing.Point(272, 251);
             this.lblContactNo.Name = "lblContactNo";
-            this.lblContactNo.Size = new System.Drawing.Size(70, 15);
+            this.lblContactNo.Size = new System.Drawing.Size(0, 15);
             this.lblContactNo.TabIndex = 6;
-            this.lblContactNo.Text = "Contact No:";
             // 
             // lblAddress
             // 
@@ -123,18 +116,17 @@
             this.lblAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAddress.Location = new System.Drawing.Point(272, 284);
             this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(51, 15);
+            this.lblAddress.Size = new System.Drawing.Size(0, 15);
             this.lblAddress.TabIndex = 7;
-            this.lblAddress.Text = "Address";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(195, 315);
+            this.button1.Location = new System.Drawing.Point(190, 313);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(73, 24);
+            this.button1.Size = new System.Drawing.Size(79, 24);
             this.button1.TabIndex = 8;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = false;
@@ -189,7 +181,6 @@
             this.label5.Size = new System.Drawing.Size(84, 13);
             this.label5.TabIndex = 13;
             this.label5.Text = "Middle Name:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 

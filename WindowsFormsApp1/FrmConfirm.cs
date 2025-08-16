@@ -25,22 +25,17 @@ namespace WindowsFormsApp1
      
         // Delegate variables
         private StudentInfoClass.DelegateText DelProgram, DelLastName, DelFirstName, DelMiddleName, DelAddress;
+        private StudentInfoClass.DelegateNumber DelNumAge, DelNumContactNo, DelStudNo;
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private StudentInfoClass.DelegateNumber DelNumAge, DelNumContactNo, DelStudNo;
-
 
         private void FrmConfirm_Load(object sender, EventArgs e)
         {
+
             DelegateText DelProgram = new DelegateText(StudentInfoClass.GetProgram);
             DelegateText DelFirstName = new DelegateText(StudentInfoClass.GetFirstName);
             DelegateText DelMiddleName = new DelegateText(StudentInfoClass.GetMiddleName);

@@ -17,21 +17,15 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnNext_Click(object sender, EventArgs e)
         {
             StudentInfoClass.Program = cbProgram.Text.ToString();
-            StudentInfoClass.StudentNo = long.Parse(txtStudentNum.Text);
+            StudentInfoClass.StudentNo = Convert.ToInt64(txtStudentNum.Text);
             StudentInfoClass.LastName = txtLastName.Text;
             StudentInfoClass.FirstName = txtFirstName.Text;
             StudentInfoClass.MiddleName = txtMiddleName.Text;
-            StudentInfoClass.Age = long.Parse(txtAge.Text);
-            StudentInfoClass.ContactNo = long.Parse(txtContactNo.Text);
+            StudentInfoClass.Age = Convert.ToInt64(txtAge.Text);
+            StudentInfoClass.ContactNo = Convert.ToInt64(txtContactNo.Text);
             StudentInfoClass.Address = rtxtAddress.Text;
 
             FrmConfirm confirmForm = new FrmConfirm();
@@ -59,7 +53,7 @@ namespace WindowsFormsApp1
 
             cbProgram.Items.Add("BS in Computer Science");
             cbProgram.Items.Add("BS in Information Technology");
-            cbProgram.Items.Add("BS in Business Administration");
+            cbProgram.Items.Add("BS in Information System");
             cbProgram.Items.Add("BS in Accountancy");
         }
     }
